@@ -1,0 +1,34 @@
+header {
+  height: 100px;
+  width: 100%;
+  background: #000;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: orangered;
+}
